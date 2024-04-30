@@ -1,5 +1,8 @@
-﻿using System;
+using Discord_Custom_Status.Properties;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -14,9 +17,11 @@ namespace Discord_Custom_Status
         [STAThread]
         static void Main()
         {
+            Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new DiscordCustomStatusForm());
+            
         }
     }
 }

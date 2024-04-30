@@ -12,7 +12,7 @@ namespace Discord_Custom_Status.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.4.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.9.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -236,6 +236,54 @@ namespace Discord_Custom_Status.Properties {
             }
             set {
                 this["CustomState"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Check our github")]
+        public string Button1Label {
+            get {
+                return ((string)(this["Button1Label"]));
+            }
+            set {
+                this["Button1Label"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://yawaflua.ru/r/gh")]
+        public string Button1Url {
+            get {
+                return ((string)(this["Button1Url"]));
+            }
+            set {
+                this["Button1Url"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Check our github")]
+        public string Button2Label {
+            get {
+                return ((string)(this["Button2Label"]));
+            }
+            set {
+                this["Button2Label"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://github.com/rafael1209")]
+        public string Button2Url {
+            get {
+                return ((string)(this["Button2Url"]));
+            }
+            set {
+                this["Button2Url"] = value;
             }
         }
     }

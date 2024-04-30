@@ -56,5 +56,17 @@
     <Setting Name="CustomState" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
+    <Setting Name="Button1Label" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Check our github</Value>
+    </Setting>
+    <Setting Name="Button1Url" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://yawaflua.ru/r/gh</Value>
+    </Setting>
+    <Setting Name="Button2Label" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Check our github</Value>
+    </Setting>
+    <Setting Name="Button2Url" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://github.com/rafael1209</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
